@@ -30,7 +30,7 @@ def create_api():
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 	
-searchQuery = '#sciencepolicy OR #STIP2021 OR #scipol OR #scienceadvice OR #sciencediplomacy OR #scidip OR #techdiplomacy OR #techplomacy OR #ScienceTechnologyStudies OR #researchandinnovation OR #IndianScience OR OR #openscience OR #scienceethics -filter:retweets AND -filter:replies'
+searchQuery = '#sciencepolicy OR #STIP2021 OR #scipol OR #scienceadvice OR #sciencediplomacy OR #scidip OR #techdiplomacy OR #techplomacy OR #ScienceTechnologyStudies OR #researchandinnovation OR #IndianScience OR #scienceethics -filter:retweets AND -filter:replies'
 
 # central India geocode
 geoCentral = '21.812672,80.183887,684mi' #Balaghat,MP to Kolkata, WB & Jamnagar, Gujarat
