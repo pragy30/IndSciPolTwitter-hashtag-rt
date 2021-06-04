@@ -17,7 +17,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 	
-searchQuery = '#sciencepolicy OR #STIP2021 OR #scipol OR #scienceadvice OR #sciencediplomacy OR #scidip OR #techdiplomacy OR #scicomm OR #aipolicy OR #netneutrality OR #Coviddiplomacy OR #vaccinediplomacy OR  OR #techplomacy OR #ScienceTechnologyStudies OR #researchandinnovation OR #scienceethics OR #datagovernance OR #biosecurity OR #innovationstudies OR #industryresearch OR #scienceandinnovation OR #emergingtechnologies OR #researchpolicy OR #spacepolicy OR #UNFCCC -filter:retweets AND -filter:replies'
+searchQuery = '#sciencepolicy OR #STIP2021 OR #scipol OR #scienceadvice OR #sciencediplomacy OR #scidip OR #scicomm OR #aipolicy OR #netneutrality OR #Coviddiplomacy OR #vaccinediplomacy OR #techdiplomacy OR #techplomacy OR #ScienceTechnologyStudies OR #researchandinnovation OR  #scienceethics OR #datagovernance OR #biosecurity OR #innovationstudies OR #industryresearch OR #scienceandinnovation OR #emergingtechnologies OR #researchpolicy OR #spacepolicy OR #UNFCCC  -filter:retweets AND -filter:replies'
 
 # central India geocode
 geoCentral = '21.812672,80.183887,684mi' #Balaghat,MP to Kolkata, WB & Jamnagar, Gujarat
